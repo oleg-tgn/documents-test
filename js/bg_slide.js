@@ -27,8 +27,12 @@ $(document).ready(function () {
     if (window.matchMedia("(min-width: 768px)").matches) {
         $(document).on('mouseover', '.section', function (e) {
             e.preventDefault();
+            console.log("TEST");
             var t = $(e.target).closest('.on-hover');  
+            console.log(t); 
             $('.bg_slide').css('opacity', '0');
+        
+
             $("#" + t.data("slide")).css('opacity', '1');
             return false;
         }).on('mouseout', '.section', function (e) {

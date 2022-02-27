@@ -13902,94 +13902,7 @@ footer .personal a {
     margin-top: -3px;
 }
 
-.section .gallery-img {
-    overflow: hidden;
-}
 
-.section .gallery-img a {
-    -webkit-transition: .5s;
-    -o-transition: .5s;
-    -moz-transition: .5s;
-    transition: .5s;
-    -webkit-box-shadow: 0px 0px 96px 26px transparent inset;
-    -moz-box-shadow: 0px 0px 96px 26px transparent inset;
-    box-shadow: 0px 0px 96px 26px transparent inset;
-    height: 380px;
-}
-
-.section .gallery-img a div {
-    -webkit-box-shadow: 0 0 0 0.5px #565555 inset;
-    -moz-box-shadow: 0 0 0 0.5px #565555 inset;
-    box-shadow: 0 0 0 0.5px #565555 inset;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    -webkit-transition: .5s;
-    -o-transition: .5s;
-    -moz-transition: .5s;
-    transition: .5s;
-}
-
-.section .gallery-img a:hover {
-    -webkit-transition: .5s;
-    -o-transition: .5s;
-    -moz-transition: .5s;
-    transition: .5s;
-}
-
-.section .gallery-img a:hover span {
-    -webkit-box-shadow: 0px 0px 96px 26px #000000 inset;
-    -moz-box-shadow: 0px 0px 96px 26px #000000 inset;
-    box-shadow: 0px 0px 96px 26px #000000 inset;
-    -webkit-transition: .5s;
-    -o-transition: .5s;
-    -moz-transition: .5s;
-    transition: .5s;
-}
-
-.section .gallery-img a span {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -moz-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -moz-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 1.625rem;
-    font-family: Geometria, sans-serif;
-}
-
-.section .gallery-img:nth-child(-n + 3) span {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.section .gallery-img:nth-child(2) span,
-.section .gallery-img:nth-last-child(2) span {
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
-}
 
 .our_previlige {
     background-image: url(../../../../../../local/templates/prommashtest/images/our_privilige.png);
@@ -14259,26 +14172,7 @@ footer .personal a {
     padding: 0;
 }
 
-.bg_slide,
-.bg_lab {
-    background: black;
-    position: absolute;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    z-index: 0;
-    opacity: 0;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    -o-transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
-}
+
 
 .uslugi .pic-c {
     z-index: 1;
@@ -15705,10 +15599,6 @@ footer .personal a {
         font-size: 1.5rem;
     }
 
-    .section .gallery-img a span {
-        font-size: 1.36875rem;
-    }
-
     .industry .industry-item:after {
         width: -webkit-calc(100% - 16px);
         width: -moz-calc(100% - 16px);
@@ -15939,26 +15829,7 @@ footer .personal a {
         height: auto;
     }
 
-    .section .gallery-img {
-        height: 120px;
-    }
 
-    .section .gallery-img a span {
-        /*background-image: url(/local/templates/prommashtest/images/list/arrow-cat.png);
-          background-repeat: no-repeat;
-          background-position: 92% center;*/
-        padding-right: 6rem;
-    }
-
-    .section .gallery-img a span:after {
-        /* content:'';
-              background-image: url(/local/templates/prommashtest/images/list/arrow-cat.png);
-              background-repeat: no-repeat;
-              background-position: center;
-              width: 47px;
-              height: 47px;
-              margin-right: 1.5rem;*/
-    }
 
     #industry {
         background-position: top left;
@@ -15974,9 +15845,7 @@ footer .personal a {
         padding-bottom: 3rem;
     }
 
-    .section .gallery-img a {
-        height: 120px;
-    }
+
 }
 
 @media (max-width: 767.98px) {
